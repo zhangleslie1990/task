@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websoket:war">
+    <output-path>$PROJECT_DIR$/websoket/target</output-path>
+    <root id="archive" name="websoket.war">
+      <element id="artifact" artifact-name="websoket:war exploded" />
+    </root>
+  </artifact>
+</component>

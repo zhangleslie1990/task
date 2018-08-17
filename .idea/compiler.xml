@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activite" />
+        <module name="eurekaserver" />
+        <module name="httppost" />
+        <module name="motoGreen" />
+        <module name="pringboot1" />
+        <module name="quartz1" />
+        <module name="rabbit" />
+        <module name="rabbitmq" />
+        <module name="redis" />
+        <module name="springboot" />
+        <module name="springdemo" />
+        <module name="websoket" />
+        <module name="wureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activite" target="1.7" />
+      <module name="activite1" target="1.7" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="httppost" target="1.7" />
+      <module name="motoGreen" target="1.5" />
+      <module name="prinboot1" target="1.8" />
+      <module name="pringboot1" target="1.8" />
+      <module name="quartz1" target="1.7" />
+      <module name="quartzDemo" target="1.5" />
+      <module name="rabbit" target="1.8" />
+      <module name="rabbitmq" target="1.5" />
+      <module name="rabbitmq (1) (com.rabbitmq)" target="1.8" />
+      <module name="rabbitmq1" target="1.8" />
+      <module name="redis" target="1.7" />
+      <module name="spring" target="1.8" />
+      <module name="springboot" target="1.8" />
+      <module name="springdemo" target="1.7" />
+      <module name="websoket" target="1.7" />
+      <module name="wureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="testJobDetailBean"
+          class="org.springframework.scheduling.quartz.JobDetailBean">
+        <property name="jobClass"
+                  value="DataConversionTask"/>
+        <!-- 可以封装各种数据到JobExecutionContext里 -->
+        <property name="jobDataAsMap">
+            <map>
+                <entry key="descString" value="测试跑批"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="testTaskTrigger"
+          class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="testJobDetailBean"/>
+        <property name="beanName" value="0/2 * * * * ?"/>
+    </bean>
+
+    <bean id="testSchedulerFactoryBean"
+          class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="testTaskTrigger"/>
+            </list>
+        </property>
+    </bean>
+</beans>

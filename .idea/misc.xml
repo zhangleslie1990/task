@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/activite" />
+    <file type="web" url="file://$PROJECT_DIR$/activite1" />
+    <file type="web" url="file://$PROJECT_DIR$/httppost" />
+    <file type="web" url="file://$PROJECT_DIR$/motoGreen" />
+    <file type="web" url="file://$PROJECT_DIR$/quartz1" />
+    <file type="web" url="file://$PROJECT_DIR$/quartzDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmq" />
+    <file type="web" url="file://$PROJECT_DIR$/redis" />
+    <file type="web" url="file://$PROJECT_DIR$/websoket" />
+    <file type="web" url="file://F:/springdemo" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/quartzDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/motoGreen/pom.xml" />
+        <option value="$PROJECT_DIR$/httppost/pom.xml" />
+        <option value="$PROJECT_DIR$/pringboot1/pom.xml" />
+        <option value="$PROJECT_DIR$/prinboot1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot/pom.xml" />
+        <option value="F:/springdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/websoket/pom.xml" />
+        <option value="$PROJECT_DIR$/activite/pom.xml" />
+        <option value="$PROJECT_DIR$/activite1/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
